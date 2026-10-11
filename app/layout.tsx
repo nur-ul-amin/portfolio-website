@@ -65,8 +65,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={`${spaceGrotesk.variable} ${manrope.variable}`}>
+    <html lang="en" suppressContentEditableWarning>
+      <body className={`${spaceGrotesk.variable} ${manrope.variable}`} suppressContentEditableWarning>
         {children}
         <Analytics />
       </body>
