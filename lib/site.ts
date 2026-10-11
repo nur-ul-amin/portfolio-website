@@ -9,7 +9,7 @@ export const siteConfig = {
       ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
       : process.env.VERCEL_URL
       ? `https://${process.env.VERCEL_URL}`
-      : "https://nur-ul-amin.vercel.app"),
+      : "https://noorulamin.me"),
   links: {
     github: "https://github.com/nur-ul-amin",
     repo: "https://github.com/nur-ul-amin/portfolio-website",
